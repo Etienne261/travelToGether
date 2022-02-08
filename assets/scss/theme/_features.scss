@@ -1,0 +1,33 @@
+/*CUSTOMISATION FEATURES*/
+#features {
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    margin: 0rem auto;
+    padding: 0rem 0 10rem;
+    h2 {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 8rem;
+    }
+    .container {
+        padding: 0;
+        .img-container{
+            img {
+                width: 35%;
+                height:35%;
+                object-fit: cover;
+            }
+        }
+        .content{
+            p{
+                color: $black;
+            }
+            h3{
+                font-size: 1.5rem;
+                font-weight: 900;
+            }
+        }        
+    }
+}

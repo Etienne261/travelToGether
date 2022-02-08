@@ -1,0 +1,18 @@
+/*CUSTOMISATION TITRE*/
+#titre{
+    background-color: $card-color;
+    color: $white;
+    border-radius: 20px;
+    margin: 5rem auto;
+        img{
+            width: 80%;
+            height: 80%;
+            transform: translate(0,15vh);
+        }
+        span{
+            color:$black;
+            &:hover{
+                color:$white;
+            }
+        }
+}

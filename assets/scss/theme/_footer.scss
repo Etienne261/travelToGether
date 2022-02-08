@@ -1,0 +1,80 @@
+/*CUSTOMISATION FOOTER*/
+footer{
+    background-color: #1d1d1f;
+    
+    .card-footer{
+        background-color: $card-color;
+        border-radius: 20px;
+        @include deca-footer;
+        h2{
+            color: $white;
+        }
+        p{
+            color: $white;
+        }
+        .text{
+            height: auto;
+        }
+        a{
+            text-transform: uppercase;
+            font-weight: 900;
+            transition: ease 0.25s;
+            &:hover{
+                color: $card-color;
+            }
+        }
+    }
+
+    .nav-footer{
+        @include deca-footer();
+        border-bottom: 1px solid white;
+        .custom-container2{
+            @include make-container2();
+            .main-menu{
+                display: flex;
+                justify-content: flex-end;
+                flex-direction: row;
+                padding: 1.5rem 0;
+                margin: auto 0;
+                font-weight: bold;
+                font-size: 1.5rem;
+                .main-menu-element {
+                    list-style: none;
+                    padding-left:0.5rem;
+                }
+            }
+        }
+    }
+
+    .bas{
+        @include deca-footer();
+        .adress{
+            span{
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.5);
+                font-size: 1.3rem;
+            }
+        }
+        .contactus{
+            a{
+                color: rgba(255, 255, 255, 0.5);
+                font-size: 1.3rem;
+                transition: ease 0.25s;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+        .pictos{
+            a{
+                padding-left: 0;
+                padding-right: 0;
+                img{
+                    width: 10%;
+                    height: 10%;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,28 @@
+/* CUSTOMISATION HEADER */
+header{ 
+    .main-nav {
+        background-color: white;
+    }
+    
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-nav .nav-link.active {
+        color: black;
+    }
+
+    a{
+        text-decoration: black;
+        transition: 0.5s;
+        &:hover{
+                background:-webkit-linear-gradient(bottom, #e7816b 0%, #e7816b 40%, white 40%);
+        }
+    } 
+
+    .main-menu{
+        font-size: 1.5rem;
+        .main-menu-element {
+                            list-style: none;
+                            padding: 0 1.5rem;
+        }
+    } 
+      
+}

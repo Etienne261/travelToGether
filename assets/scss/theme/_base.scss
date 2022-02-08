@@ -1,0 +1,31 @@
+/*BASE*/
+*,body {
+    margin: 0;
+    padding: 0 1rem;
+    font-family: "Lato Regular";
+}
+
+h1 {
+    color: white;
+    padding-top: 5rem;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}

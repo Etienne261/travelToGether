@@ -1,0 +1,26 @@
+@mixin make-container($padding-x: 0) {
+    width: 100%;
+    max-height: 90vh;
+    min-height: 60vh;
+    padding-right: $padding-x;
+    padding-left: $padding-x;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  @mixin make-container2($padding-x: 0) {
+    width: 100%;
+    padding-right: $padding-x;
+    padding-left: $padding-x;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  @mixin deca-footer {
+    color: $white;
+    width: 80%;
+    margin: auto;
+    padding:2rem 0;
+    height: 30vh;
+    transform: translate(0,-15vh);
+  }
